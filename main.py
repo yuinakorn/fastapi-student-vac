@@ -10,6 +10,6 @@ app.include_router(token_router.router)
 
 
 @app.get("/", tags=["/"])
-async def api():
+async def welcome():
     return {"message": "Student Vaccine API"}
 

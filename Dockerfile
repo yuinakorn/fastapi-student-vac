@@ -1,8 +1,8 @@
-# linux
-#FROM python:3.10.1-slim@sha256:cde92a0c681857e64c2743785c0cd3df02eec53446d7f1535220d42ed9b93c03
+# linux/amd64
+FROM python:3.10.1-slim@sha256:a7deebfd654d0158999e9ae9a78ce4a9c7090816a2d1600d254fef8b7fd74cac
 
 # m1
-FROM python:3.10.1-slim
+#FROM python:3.10.1-slim
 
 WORKDIR /app
 
